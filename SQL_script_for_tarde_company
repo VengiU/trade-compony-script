@@ -482,7 +482,7 @@ ALTER TABLE dbo.Credit_Sales_deteils ADD  CONSTRAINT FK_Credit_Sales_deteils_Ban
 ----------------------------------------------------------------------------------------------------
 --#endregion
 
---#region Suppliers --Поставщики
+--#region Suppliers --ГЏГ®Г±ГІГ ГўГ№ГЁГЄГЁ
 ----------------------------------------------------------------------------------------------------
 CREATE TABLE dbo.Suppliers
 (
@@ -497,7 +497,7 @@ ALTER TABLE dbo.Suppliers ADD  CONSTRAINT FK_Suppliers_Adress_ID FOREIGN KEY (Ad
 ----------------------------------------------------------------------------------------------------
 --#endregion
 
---#region Supplys --поставки
+--#region Supplys --ГЇГ®Г±ГІГ ГўГЄГЁ
 ----------------------------------------------------------------------------------------------------
 CREATE TABLE dbo.Supplies
 (
@@ -519,7 +519,7 @@ ALTER TABLE dbo.Supplies ADD  CONSTRAINT FK_Suppliess_Purveyor_ID FOREIGN KEY (P
 ----------------------------------------------------------------------------------------------------
 --#endregion
 
---#region remains of goods --Остатки
+--#region remains of goods --ГЋГ±ГІГ ГІГЄГЁ
 ----------------------------------------------------------------------------------------------------
 CREATE TABLE dbo.Remains
 (
